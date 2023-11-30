@@ -19,7 +19,7 @@ public class Program {
 		List<Product> list = new ArrayList<>();
 
 		String path="C:\\Users\\Casa\\Documents\\ws-Java\\S19_1_Generics_Delimitados\\ini.txt";
-		//String path = "C:\\temp\\in.txt";
+		
 
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
